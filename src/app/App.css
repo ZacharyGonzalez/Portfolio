@@ -1,0 +1,12 @@
+.main-parent {
+  height: fit-content;
+  width:75vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
