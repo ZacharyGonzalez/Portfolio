@@ -1,6 +1,7 @@
-.navbar{
-    display:flex;
-    color:bisque;
+.navbar {
+    display: flex;
+    color: bisque;
     justify-content: space-between;
     align-items: center;
+    height: 40px
 }

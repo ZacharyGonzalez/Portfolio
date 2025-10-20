@@ -1,9 +1,11 @@
 import './App.css'
 import Professional from './pages/professional'
-function App() {    
+import Navbar from '../components/layout/Navbar'
+function App() {
   return (
     <div className='main-parent'>
-      <Professional/>
+      <Navbar />
+      <Professional />
     </div>
   )
 }

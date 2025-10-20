@@ -16,7 +16,8 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background-color: #242424;
-  position: relative
+  position: relative;
+  color:azure
 }
 
 body {

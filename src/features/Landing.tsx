@@ -1,6 +1,11 @@
-import Navbar from "../components/layout/Navbar"
+import BottomBar from "../components/layout/BottomBar"
+import PairedWindow from "../components/layout/PairedWindow"
+import './landing.css'
 export default function LandingPage() {
     return (
-        <Navbar />
+        <div className="landing">
+            <PairedWindow />
+            <BottomBar />
+        </div>
     )
 }
