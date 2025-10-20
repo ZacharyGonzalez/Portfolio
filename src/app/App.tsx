@@ -1,11 +1,18 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
 import Professional from './pages/professional'
 import Navbar from '../components/layout/Navbar'
+import Personal from './pages/personal'
+
 function App() {
+
   return (
     <div className='main-parent'>
-      <Navbar />
-      <Professional />
+        <Navbar/>
+        <Routes>
+          <Route path='/' element={<Professional/>}/>
+          <Route path='/Personal' element={<Personal/>}/>
+        </Routes>
     </div>
   )
 }

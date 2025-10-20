@@ -1,13 +1,15 @@
 import './navbar.css'
-import Button from '../ui/Button'
-function test() {
-    return null
-}
+import { useNavigate } from 'react-router-dom'
+
 export default function Navbar() {
+    const navigate = useNavigate();
     return (
         <div className="navbar">
             <h1>Zachary Gonzalez</h1>
-            <Button name={'Identity'} link={test} />
+            <div>
+                <button onClick={() => navigate('/')}>Professional</button>
+                <button onClick={() => navigate('/personal')}>Personal</button>
+            </div>
         </div>
     )
 }
