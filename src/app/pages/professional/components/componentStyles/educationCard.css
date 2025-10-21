@@ -1,25 +1,25 @@
 .education-card {
-    width: 400px;
-    height: 400px;
-    background-color: slategray;
-    border-radius: 40px;
-    border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  background-color: slategray;
+  border-radius: 40px;
+  border: 3px solid black;
 }
-.title{
-    font-size: 50px;
-    font:bold;
+.title {
+  font-size: 50px;
+  font: bold;
 }
 .date {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .gpa {
-    font-size: 30px;
-    text-align: right;
-    color: #00FF99;
-    padding-right: 8px;
+  font-size: 30px;
+  text-align: right;
+  color: #00ff99;
+  padding-right: 8px;
 }
 
 .school {
-    font-size: 30px;
+  font-size: 30px;
 }

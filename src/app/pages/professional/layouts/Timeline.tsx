@@ -1,9 +1,5 @@
-import '../styles/timeline.css'
+import "../styles/timeline.css";
 
 export default function Timeline() {
-    return (
-        <div className="timeline">
-            T
-        </div>
-    )
+  return <div className="timeline">T</div>;
 }

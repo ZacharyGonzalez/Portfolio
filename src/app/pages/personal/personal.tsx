@@ -1,5 +1,3 @@
 export default function Personal() {
-    return (
-        'NOPE'
-    )
+  return "NOPE";
 }
