@@ -1,0 +1,24 @@
+.education-card {
+    width: 400px;
+    height: 400px;
+    background-color: slategray;
+    border-radius: 40px;
+    border: 3px solid grey;
+}
+.title{
+    font-size: 50px;
+    font:bold;
+}
+.date {
+    font-size: 30px;
+}
+
+.gpa {
+    font-size: 30px;
+    text-align: right;
+    color: #00FF99;
+}
+
+.school {
+    font-size: 30px;
+}

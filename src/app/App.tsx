@@ -1,8 +1,8 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Professional from './pages/professional'
+import Professional from './pages/professional/professional'
 import Navbar from '../components/layout/Navbar'
-import Personal from './pages/personal'
+import Personal from './pages/personal/personal'
 
 function App() {
 
