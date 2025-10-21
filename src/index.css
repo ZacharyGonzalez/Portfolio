@@ -6,7 +6,6 @@
   background-image:
     radial-gradient(circle, rgba(40, 40, 40, 0.1) 0%, rgba(0, 0, 0, 0.98) 50%), 
     url('./assets/bg.jpg');
-  background-position: center;
   background-size: 120%;
   filter: blur(2px) brightness(0.2);
   z-index: -1;
