@@ -4,10 +4,10 @@ export default function Education() {
     return (
         <div className="education">
             <EducationCard
-                Degree="Associates"
+                Degree="Associates of Science"
                 Date="Sep. 2018 - Dec. 2020"
                 GPA="3.7"
-                School="Essec Count College"
+                School="Essec Count Community College"
             />
             <EducationCard
                 Degree="Bachelors of Science"

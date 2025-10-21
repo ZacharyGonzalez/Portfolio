@@ -5,7 +5,7 @@ export default function Navbar() {
     const navigate = useNavigate();
     return (
         <div className="navbar">
-            <h1>Zachary Gonzalez</h1>
+            Zachary Gonzalez
             <div>
                 <button onClick={() => navigate('/')}>Professional</button>
                 <button onClick={() => navigate('/personal')}>Personal</button>
