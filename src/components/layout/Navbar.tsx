@@ -1,15 +1,32 @@
 import "../styles/navbar.css";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
-  const navigate = useNavigate();
   return (
-    <div className="navbar">
-      Zachary Gonzalez
-      <div>
-        <button onClick={() => navigate("/")}>Professional</button>
-        <button onClick={() => navigate("/personal")}>Personal</button>
+    <nav className="navbar">
+      <div className="navbar-title">
+        Zachary Gonzalez
       </div>
-    </div>
+      <div className="navbar-links">
+        <NavLink
+          to="/" end
+          className={
+            ({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+          }
+        >
+          Professional
+        </NavLink>
+        <NavLink
+          to="/personal"
+          className={
+            ({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+          }
+        >
+          Personal
+        </NavLink>
+      </div>
+    </nav>
   );
 }
