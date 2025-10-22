@@ -7,18 +7,17 @@ interface LinkButtonProps {
   color?: string;
 }
 
-export default function LinkButton({ onClick, children, color = "#0077ff" }: LinkButtonProps) {
+export default function LinkButton({ onClick, children }: LinkButtonProps) {
   return (
-    <span
+    <div
       onClick={onClick}
       style={{
-        color,
         cursor: "pointer",
         textDecoration: "underline",
         fontWeight: 500,
       }}
     >
       {children}
-    </span>
+    </div>
   );
 }

@@ -1,3 +1,6 @@
-.my-links{
-    
+.my-links {
+  gap: 20px;
+  display: flex;
+}
+.icon {
 }
