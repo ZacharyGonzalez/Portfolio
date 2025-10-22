@@ -14,11 +14,11 @@ export default function MyLinks() {
   const navigate = useNavigate();
 
   const links = [
-    {
+    /* {
       label: "Download CV",
       icon: <FaFileDownload />,
       action: () => window.open("https://example.com/my-cv.pdf"),
-    },
+    },*/
     {
       label: "Facebook",
       icon: <FaFacebook />,

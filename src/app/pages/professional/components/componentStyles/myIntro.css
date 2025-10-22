@@ -1,10 +1,17 @@
 .my-intro {
+  display: inline;
+  gap: 0;
 }
 
+.who-am-i {
+  line-height: 100px;
+}
+.job-reposition {
+  line-height: 40px;
+}
 .job {
   font-size: 20px;
 }
-
 .greeting {
   font-size: 80px;
 }

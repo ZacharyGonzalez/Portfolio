@@ -12,7 +12,7 @@ export default function Bio() {
             Job="Software Developer"
             Greeting="Hello I'm"
             Name="Zachary Gonzalez"
-            Desc="Full-Stack Developer | Pragmatic, Delivery-oriented professional"
+            Desc="Full-Stack Developer | Pragmatic, delivery-oriented professional"
           />
         }
         right={<MyCatch />}
