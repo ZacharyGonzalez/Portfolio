@@ -1,2 +1,21 @@
 .my-intro {
 }
+
+.job {
+  font-size: 20px;
+}
+
+.greeting {
+  font-size: 80px;
+}
+
+.name {
+  font-size: 100px;
+  color: #00ff99;
+}
+
+.desc {
+  display: flex;
+  font-size: 40px;
+  width: 700px;
+}

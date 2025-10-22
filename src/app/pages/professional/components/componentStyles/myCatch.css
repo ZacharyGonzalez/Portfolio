@@ -1,0 +1,13 @@
+.my-catch {
+  padding: 6rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../../../assets/download.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 2px solid #00ff99;
+
+  width: 300px;
+  height: 300px;
+}
