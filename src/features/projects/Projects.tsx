@@ -1,5 +1,5 @@
 import "./projects.css";
-import Slab from "../../app/pages/professional/components/Slab";
+import Slab from "../skills/components/slab/Slab";
 
 export default function Projects() {
   return (
