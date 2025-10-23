@@ -2,7 +2,6 @@ import "./education.css";
 import EducationCard from "./components/educationCard/EducationCard";
 
 export default function Education() {
-
   return (
     <div className="education">
       <EducationCard

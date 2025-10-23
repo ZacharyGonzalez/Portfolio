@@ -5,12 +5,14 @@
   border-radius: 40px;
   transform-style: preserve-3d;
   margin: 2em;
-  transition: transform .75s ease, box-shadow 0.4s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 1.0)
+  transition:
+    transform 0.75s ease,
+    box-shadow 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
 
 .education-card:hover {
-  transform: rotateX(60deg) scale(0.97);
+  transform: rotateX(45deg) scale(0.97);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
@@ -22,7 +24,7 @@
 
 .date {
   font-size: 30px;
-  padding:10px;
+  padding: 10px;
 }
 
 .gpa {
@@ -34,5 +36,5 @@
 
 .school {
   font-size: 30px;
-  padding:10px;
+  padding: 10px;
 }

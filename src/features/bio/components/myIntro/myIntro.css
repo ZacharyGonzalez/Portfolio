@@ -6,12 +6,16 @@
 .who-am-i {
   line-height: 100px;
 }
+
 .job-reposition {
   line-height: 40px;
 }
+
 .job {
   font-size: 20px;
+  padding-bottom: 5px;
 }
+
 .greeting {
   font-size: 80px;
 }
@@ -19,6 +23,8 @@
 .name {
   font-size: 100px;
   color: #00ff99;
+  padding-top: 10px;
+  filter: drop-shadow(0 0 2px #00ff99);
 }
 
 .desc {

@@ -7,4 +7,9 @@
   display: flex;
   font-size: 40px;
   color: #00ff99;
+  transition: transform 1s ease;
+}
+
+.icon:hover {
+  transform: rotatex(360deg) scale(1.2);
 }
