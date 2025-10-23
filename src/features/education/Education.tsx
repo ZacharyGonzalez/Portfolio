@@ -8,7 +8,7 @@ export default function Education() {
         Degree="Associates of Science"
         Date="Sep. 2018 - Dec. 2020"
         GPA="3.7"
-        School="Essec Count Community College"
+        School="Essex Count Community College"
       />
       <EducationCard
         Degree="Bachelors of Science"

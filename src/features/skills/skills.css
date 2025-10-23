@@ -1,3 +1,23 @@
 .skills {
-  justify-items: center;
+  display: flex;
+}
+.row {
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+.col1 {
+  padding: 20px;
+}
+.col2 {
+  padding: 20px;
+}
+.col3 {
+  padding: 20px;
+}
+.test {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }

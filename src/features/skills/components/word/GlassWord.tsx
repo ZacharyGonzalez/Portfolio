@@ -1,13 +1,14 @@
 import "./glassWord.css";
 import GlassLetter from "./component/glassLetter/GlassLetter";
-export default function GlassWord() {
-  return (
-    <div className="glass-word">
-      <GlassLetter letter={"H"} />
-      <GlassLetter letter={"E"} />
-      <GlassLetter letter={"L"} />
-      <GlassLetter letter={"L"} />
-      <GlassLetter letter={"O"} />
-    </div>
-  );
+interface GlassWordProps {
+  word: string;
+}
+export default function GlassWord({ word }: GlassWordProps) {
+  function characterizeWord(word: string) {
+    return word
+      .split("")
+      .map((char, index) => <GlassLetter key={index} letter={char} />);
+  }
+
+  return <div className="glass-word">{characterizeWord(word)}</div>;
 }
