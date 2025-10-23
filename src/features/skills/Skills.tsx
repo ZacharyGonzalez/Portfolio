@@ -1,6 +1,6 @@
-import "../styles/skills.css";
-import Slab from "../components/Slab";
-import SplitScreen from "../../../../components/layout/SplitScreen";
+import "./skills.css";
+import Slab from "../../app/pages/professional/components/Slab";
+import SplitScreen from "../../components/layout/SplitScreen";
 
 export default function Skills() {
   return (

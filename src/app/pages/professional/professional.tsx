@@ -1,9 +1,9 @@
 import "./professional.css";
-import Bio from "./layouts/Bio";
-import Education from "./layouts/Education";
-import Skills from "./layouts/Skills";
-import Projects from "./layouts/Projects";
-import Timeline from "./layouts/Timeline";
+import Bio from "../../../features/bio/Bio";
+import Education from "../../../features/education/Education";
+import Skills from "../../../features/skills/Skills";
+import Projects from "../../../features/projects/Projects";
+import Timeline from "../../../features/timeline/Timeline";
 import Banner from "../../../components/layout/Banner";
 export default function Professional() {
   return (

@@ -1,5 +1,5 @@
-import "./componentStyles/myIntro.css";
-import MyLinks from "./MyLinks";
+import "./myIntro.css";
+import MyLinks from "../myLinks/MyLinks";
 type MyIntroProp = {
   Job: string;
   Greeting: string;

@@ -1,4 +1,4 @@
-import "./componentStyles/myCatch.css";
+import "./myCatch.css";
 export default function MyCatch() {
   return <div className="my-catch"></div>;
 }

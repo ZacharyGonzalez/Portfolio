@@ -1,4 +1,4 @@
-import "./componentStyles/educationCard.css";
+import "./educationCard.css";
 type EducationCardProp = {
   Degree: string;
   Date: string;

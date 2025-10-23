@@ -4,11 +4,10 @@ import {
   FaLinkedin,
   FaInstagram,
   FaYoutube,
-  FaFileDownload,
   FaFacebook,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import "./componentStyles/myLinks.css";
+import "./myLinks.css";
 
 export default function MyLinks() {
   const navigate = useNavigate();
@@ -27,22 +26,23 @@ export default function MyLinks() {
     {
       label: "Instagram",
       icon: <FaInstagram />,
-      action: () => window.open("https://instagram.com/placeholder"),
+      action: () => window.open("https://www.instagram.com/revived_zack"),
     },
     {
       label: "YouTube",
       icon: <FaYoutube />,
-      action: () => window.open("https://youtube.com/placeholder"),
+      action: () => window.open("https://www.youtube.com/@slipe678/featured"),
     },
     {
       label: "LinkedIn",
       icon: <FaLinkedin />,
-      action: () => window.open("https://linkedin.com/in/placeholder"),
+      action: () =>
+        window.open("https://www.linkedin.com/in/zachary-gonzalez-54352b264"),
     },
     {
       label: "GitHub",
       icon: <FaGithub />,
-      action: () => window.open("https://github.com/placeholder"),
+      action: () => window.open("https://github.com/ZacharyGonzalez"),
     },
   ];
 
