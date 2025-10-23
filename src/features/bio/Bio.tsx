@@ -1,5 +1,5 @@
 import "./bio.css";
-import SplitScreen from "../../components/layout/SplitScreen";
+import SplitScreen from "../../components/layout/splitScreen/SplitScreen";
 import MyIntro from "./components/myIntro/MyIntro";
 import MyCatch from "./components/myImage/MyCatch";
 import Achievements from "./components/achievements/Achievements";

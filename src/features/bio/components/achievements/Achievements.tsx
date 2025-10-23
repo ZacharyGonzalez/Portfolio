@@ -1,18 +1,16 @@
-import SplitScreen from "../../../../components/layout/SplitScreen";
-import Banner from "../../../../components/layout/Banner";
+import SplitScreen from "../../../../components/layout/splitScreen/SplitScreen";
+import Card from "./components/card/Card";
 export default function Achievements() {
   return (
     <div className="Achievements">
-      <Banner
-        title={
-          <SplitScreen
-            left={<SplitScreen left={<>left left</>} right={<>left right</>} />}
-            right={
-              <SplitScreen left={<>right left</>} right={<>right right</>} />
-            }
-          />
-        }
-      />
+      <div>
+        <SplitScreen
+          left={<SplitScreen left={<Card title="4" info="Projects Deployed" />} right={<Card title="3" info="Years of Experience" />} />}
+          right={
+            <SplitScreen left={<Card title="20" info="Projects Worked on" />} right={<Card title="28" info="Age" />} />
+          }
+        />
+      </div>
     </div>
   );
 }

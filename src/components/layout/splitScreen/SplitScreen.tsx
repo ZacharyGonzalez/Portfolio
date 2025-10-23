@@ -1,4 +1,4 @@
-import "../styles/splitScreen.css";
+import "./splitScreen.css";
 import type { ReactNode } from "react";
 
 type SplitScreenProp = {

@@ -1,6 +1,5 @@
-// components/LinkButton.tsx
 import React from "react";
-
+import './linkButton.css'
 interface LinkButtonProps {
   onClick?: () => void;
   children: React.ReactNode;

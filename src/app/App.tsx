@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Professional from "./pages/professional/professional";
-import Navbar from "../components/layout/Navbar";
+import Navbar from "../components/layout/Navbar/Navbar";
 import Personal from "./pages/personal/personal";
 
 function App() {

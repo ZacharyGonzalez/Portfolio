@@ -1,3 +1,4 @@
+import { useRef, useState } from "react";
 import "./educationCard.css";
 type EducationCardProp = {
   Degree: string;

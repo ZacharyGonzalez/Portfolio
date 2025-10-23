@@ -4,22 +4,18 @@
   width: 100%;
   height: 100%;
   background-image:
-    radial-gradient(circle, rgba(40, 40, 40, 0.1) 0%, rgba(0, 0, 0, 0.98) 50%),
-    url("./assets/bg.jpg");
+    radial-gradient(circle, rgba(40, 40, 40, 0.1) 0%, rgba(0, 0, 0, 0.98) 70%),
+    url("./assets/image.png");
   background-size: 120%;
-  filter: blur(2px) brightness(0.2);
+  filter: blur(2px) brightness(0.3);
   z-index: -1;
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
   line-height: 1.5;
   background-color: #242424;
-  position: relative;
   color: azure;
-}
-
-body {
-  place-items: center;
-  position: relative;
+  flex-direction: column;
+  flex: 1 1 200px;
 }

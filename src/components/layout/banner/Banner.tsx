@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import "../styles/banner.css";
+import "./banner.css";
 
 type BannerProp = {
   title: string | ReactNode;

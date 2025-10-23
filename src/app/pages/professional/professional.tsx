@@ -4,7 +4,7 @@ import Education from "../../../features/education/Education";
 import Skills from "../../../features/skills/Skills";
 import Projects from "../../../features/projects/Projects";
 import Timeline from "../../../features/timeline/Timeline";
-import Banner from "../../../components/layout/Banner";
+import Banner from "../../../components/layout/banner/Banner";
 export default function Professional() {
   return (
     <div className="professional">
