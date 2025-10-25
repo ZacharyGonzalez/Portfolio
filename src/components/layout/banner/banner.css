@@ -1,4 +1,7 @@
 .banner {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   padding: 40px;
   font-size: 64px;
   color: #00ff99;

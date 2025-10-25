@@ -1,5 +1,5 @@
 .my-intro {
-  display: inline;
+  display: flexbox;
   gap: 0;
 }
 
