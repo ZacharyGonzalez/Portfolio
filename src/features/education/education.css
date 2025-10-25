@@ -1,8 +1,9 @@
 .education {
-  width: 100%;
+  width: 100vw;
+  height: max-content;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 30px;
   gap: 20px;
   perspective: 400px;
 }

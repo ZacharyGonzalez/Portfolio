@@ -8,8 +8,8 @@ type SplitScreenProp = {
 export default function SplitScreen({ left, right }: SplitScreenProp) {
   return (
     <div className="split-screen">
-      <div>{left}</div>
-      <div>{right}</div>
+      <div className="left-part">{left}</div>
+      <div className="right-part">{right}</div>
     </div>
   );
 }

@@ -12,8 +12,9 @@
 }
 
 .job {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 5px;
+  font-weight: lighter;
 }
 
 .greeting {
@@ -24,6 +25,7 @@
   font-size: 100px;
   color: #00ff99;
   padding-top: 10px;
+  padding-bottom: 10px;
   filter: drop-shadow(0 0 2px #00ff99);
 }
 
@@ -31,4 +33,18 @@
   display: flex;
   font-size: 40px;
   width: 700px;
+  padding-bottom: 10px;
+}
+
+@media screen {
+  .my-intro, .desc {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .desc {
+    width: 100%;
+    font-size: 24px;
+  }
 }

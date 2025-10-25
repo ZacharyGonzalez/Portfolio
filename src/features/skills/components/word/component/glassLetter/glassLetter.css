@@ -19,3 +19,9 @@
   color: rgba(0, 255, 153, 0.7);
   cursor: default;
 }
+
+@media screen {
+  .glass-letter {
+    font-size: 40px;
+  }
+}

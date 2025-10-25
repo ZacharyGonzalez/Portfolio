@@ -1,22 +1,12 @@
-import SplitScreen from "../../../../components/layout/splitScreen/SplitScreen";
 import Card from "./components/card/Card";
+import './achievements.css'
 export default function Achievements() {
   return (
-    <div className="Achievements">
-      <SplitScreen
-        left={
-          <SplitScreen
-            left={<Card title="4" info="Projects Deployed" />}
-            right={<Card title="3" info="Years of Experience" />}
-          />
-        }
-        right={
-          <SplitScreen
-            left={<Card title="20" info="Projects Worked on" />}
-            right={<Card title="28" info="Age" />}
-          />
-        }
-      />
+    <div className="achievements">
+      <Card title="4" info="Projects Deployed" />
+      <Card title="3" info="Years of Experience" />
+      <Card title="20" info="Projects Worked on" />
+      <Card title="28" info="Age" />
     </div>
   );
 }

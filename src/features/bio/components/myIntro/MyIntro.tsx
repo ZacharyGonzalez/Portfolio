@@ -11,8 +11,8 @@ export default function MyIntro({ Job, Greeting, Name, Desc }: MyIntroProp) {
     <div className="my-intro">
       <div className="who-am-i">
         <div className="job-reposition">
-          <div className="job">{Job}</div>
-          <div className="greeting">{Greeting}</div>
+          {/*<div className="job">{Job}</div>
+          <div className="greeting">{Greeting}</div>*/}
         </div>
         <div className="name">{Name}</div>
       </div>
