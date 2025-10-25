@@ -3,23 +3,28 @@
   flex-direction: column;
   width: 100vw;
   height: max-content;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  justify-items: center;
   align-items: center;
 }
-.row {
-  gap: 20px;
-  padding: 20px;
-  display: flex;
-}
+
 .col1 {
   padding: 20px;
 }
+
 .col2 {
   padding: 20px;
 }
+
 .col3 {
   padding: 20px;
 }
+
 .test {
   align-content: center;
   align-items: center;
