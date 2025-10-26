@@ -1,0 +1,46 @@
+.event {
+    display: flex;
+    align-items:start;
+    color: #00ff99;
+    border: 2px solid hsl(156, 100%, 50%);
+    top:0;
+}
+
+.year {
+    background-color: #000;
+    color: #00ff99;
+    border: 2px solid #00ff99;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    opacity: 0.8;
+    font-size: 1rem;
+    margin: 1rem 2rem;
+
+}
+
+.event-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00ff99;
+    border: 2px solid hsl(156, 100%, 50%);
+    margin: 1rem 2rem;
+}
+
+.title {
+    color: #00ff99;
+    font-size: 1.2rem;
+}
+
+.desc {
+    color: #00ff99;
+    font-size: 1.2rem;
+}

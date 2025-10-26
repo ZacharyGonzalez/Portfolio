@@ -1,5 +1,10 @@
 import "./timeline.css";
-
+import TimelineRuler from "./components/timelineRuler/TimelneRuler";
+// Timeline: a tree will be the linear progression, a branch will contain the year/date info, the event contains the data
 export default function Timeline() {
-  return <div className="timeline">The left side should be one long div, that ocasionally has a node div that fills the right side with entry text</div>;
+  return (
+    <div className="timeline">
+      <TimelineRuler/>
+    </div>
+  )
 }

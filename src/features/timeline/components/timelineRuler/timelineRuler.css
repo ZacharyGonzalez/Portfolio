@@ -1,0 +1,18 @@
+.line-ruler {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items:center;
+    padding:10px;
+}
+
+.line-ruler::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: rgba(0, 255, 150, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 25%;
+    margin-left: -3px;
+}
