@@ -4,13 +4,11 @@
 }
 
 .title {
-  font-size: 20px;
-  padding: 10px;
-  text-decoration: none !important;
+  font-weight: bolder;
+  padding: 1rem 2rem;
 }
 
 .info {
   font-size: 20px;
   align-content: center;
-  text-decoration: none !important;
 }
