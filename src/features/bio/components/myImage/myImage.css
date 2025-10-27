@@ -1,10 +1,10 @@
-.my-catch {
+.my-image {
   content:"";
   display: flex;
   padding: 6rem;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../../assets/download.jpg");
+  background-image: url("../../../../assets/profile_test.png");
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -14,7 +14,7 @@
   height: 300px;
 }
 
-.my-catch:hover {
+.my-image:hover {
   box-shadow:
     0 0 16px rgba(0, 255, 153, 0.7),
     0 0 32px rgba(0, 255, 153, 0.5);

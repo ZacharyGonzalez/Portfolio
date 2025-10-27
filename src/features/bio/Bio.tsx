@@ -1,7 +1,7 @@
 import "./bio.css";
 import SplitScreen from "../../components/layout/splitScreen/SplitScreen";
 import MyIntro from "./components/myIntro/MyIntro";
-import MyCatch from "./components/myImage/MyCatch";
+import MyImage from "./components/myImage/MyImage";
 import Achievements from "./components/achievements/Achievements";
 export default function Bio() {
   return (
@@ -15,7 +15,7 @@ export default function Bio() {
             Desc="Full-Stack Developer | Pragmatic, delivery-oriented professional"
           />
         }
-        right={<MyCatch />}
+        right={<MyImage />}
       />
       <Achievements />
     </div>
