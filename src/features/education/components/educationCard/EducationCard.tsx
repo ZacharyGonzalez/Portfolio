@@ -7,13 +7,8 @@ type EducationCardProp = {
   School: string;
   Info: string
 };
-export default function EducationCard({
-  Degree,
-  Date,
-  GPA,
-  School,
-  Info,
-}: EducationCardProp) {
+export default function EducationCard({ Degree, Date, GPA, School, Info }: EducationCardProp) {
+
   return (
     <div className="card-container">
       <div className="education-card">
@@ -22,7 +17,10 @@ export default function EducationCard({
         <div className="gpa">{GPA}</div>
         <div className="school">{School}</div>
       </div>
-      <div className="info-box">{Info}</div>
+      <div className="info-box">
+        <h1>{School}</h1>
+        {Info}
+      </div>
     </div>
   );
 }
