@@ -1,6 +1,3 @@
-# React + TypeScript + Vite Portfolio Website
+Portfolio Website
 
-## How to build 
-NPM is a requirement.
-Run 'npm install'
-Then run 'npm run dev'
+Front end design was something I believe i needed more experience in, so making this website was for practice and to help stand out amongst competative peers.
