@@ -1,3 +1,23 @@
-.project-tile{
-    
+.projects-container {
+    display: flex;
+    gap: 10px;
+    padding: 1rem 2rem;   
+    position:relative;
+    top:50%;
+    left:50%; 
+}
+
+.project-tile {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.project-title {
+    font-size: 40px;
+    color: #00ff99;
+}
+
+.project-desc {
+    font-size: 20px;
 }

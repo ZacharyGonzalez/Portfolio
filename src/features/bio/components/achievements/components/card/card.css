@@ -1,11 +1,13 @@
 .card {
   display: flex;
-  width: 200px;
+  width: 250px;
+  padding: 1rem 2rem;
 }
 
 .title {
   font-weight: bolder;
   padding: 1rem 2rem;
+  color: #00ff99;
 }
 
 .info {

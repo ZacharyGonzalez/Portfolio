@@ -2,6 +2,7 @@ import "./education.css";
 import EducationCard from "./components/educationCard/EducationCard";
 
 export default function Education() {
+  // i should make these in a list and use a map
   return (
     <div className="education">
       <EducationCard
