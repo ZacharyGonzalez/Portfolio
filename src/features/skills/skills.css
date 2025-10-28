@@ -1,4 +1,8 @@
 .skills {
-  height: max-content;
-  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 3rem;
+  padding:1rem;
+  align-items: center;
 }
