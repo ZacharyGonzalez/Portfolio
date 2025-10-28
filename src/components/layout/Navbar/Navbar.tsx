@@ -19,7 +19,7 @@ export default function Navbar() {
           to="/personal"
           className={({ isActive }) =>
             isActive ? "nav-link active" : "nav-link"
-          }
+          } 
         >
           Personal
         </NavLink>
