@@ -6,7 +6,7 @@ import Personal from "./pages/personal/personal";
 function App() {
   return (
     <>
-      <div className="background"/>
+      <div className="background" />
       <div className="main-parent">
         <Navbar />
         <Routes>

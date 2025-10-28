@@ -6,7 +6,7 @@ type MyIntroProp = {
   Name: string;
   Desc: string;
 };
-export default function MyIntro({Name, Desc }: MyIntroProp) {
+export default function MyIntro({ Name, Desc }: MyIntroProp) {
   return (
     <div className="my-intro">
       <div className="who-am-i">

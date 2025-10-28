@@ -7,7 +7,7 @@
 }
 @media (max-width: 1000px) {
   .split-screen {
-  flex-direction: column-reverse;
-  gap: 40px;
+    flex-direction: column-reverse;
+    gap: 40px;
   }
 }

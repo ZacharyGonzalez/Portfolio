@@ -4,4 +4,6 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  border: 2px solid black;
+  padding: 1rem 1rem;
 }

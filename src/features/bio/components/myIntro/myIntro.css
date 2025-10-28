@@ -37,7 +37,8 @@
 }
 
 @media screen {
-  .my-intro, .desc {
+  .my-intro,
+  .desc {
     flex-direction: column;
     text-align: center;
     gap: 20px;
