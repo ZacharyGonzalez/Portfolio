@@ -1,24 +1,28 @@
 import "./wordContainer.css";
 import GlassWord from "../word/GlassWord";
-
-export default function WordContainer() {
+interface WordContainerProp {
+  skill: string;
+}
+export default function WordContainer({ skill }: WordContainerProp) {
+  const skillImages:Record<string,string> ={
+    React:'../../../assets/react.png',
+    NodeJs:'../../../assets/node.png',
+    Python:'../../../assets/python.png',
+    Mongodb:'../../../assets/mongodb.png',
+    SQL:'../../../assets/sql.png',
+    LAngchain:'../../../assets/langchain.png',
+  }
+    const selectedSkill = (skill: string): string =>
+      skillImages[skill] || '/images/default.png'
+  
   return (
     <div className="word-container">
-      <div className="col1">
-        <GlassWord word="React" />
-        <GlassWord word="SQL" />
-      </div>
-      <div>
-        <div className="col2">
-          <GlassWord word="Node.js" />
-          <GlassWord word="MongoDB" />
-          <GlassWord word="tbd" />
-        </div>
-      </div>
-      <div className="col3">
-        <GlassWord word="Python" />
-        <GlassWord word="Langchain" />
-      </div>
+      <img
+        src={selectedSkill(skill)}
+        alt="background"
+        className="word-bg"
+      />
+      <GlassWord word={skill} />
     </div>
   );
 }

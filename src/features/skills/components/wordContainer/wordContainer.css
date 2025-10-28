@@ -1,5 +1,4 @@
 .word-container {
   display: flex;
-  justify-items: center;
   align-items: center;
 }

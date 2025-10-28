@@ -7,7 +7,7 @@ export default function Skills() {
       <Banner title={"Skills"} />
 
       <div className="skills">
-        <WordContainer />
+        <WordContainer skill='js' />
       </div>
     </>
   );
