@@ -31,13 +31,13 @@
 }
 
 .info-box {
-  width:300px;
-  height:300px;
+  /* weird fiddling to make this card the same size as the other card*/
+  width: 320px;
+  height: 370px;
   padding: 1rem 2rem;
   background-color: #111;
   color: white;
-  transform: rotateY(-180deg); 
-
+  transform: rotateY(-180deg);
 }
 
 .card-container:hover .education-card {
