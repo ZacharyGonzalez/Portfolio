@@ -1,5 +1,5 @@
 import "./projects.css";
-import ProjectTile from "./components/projectTile/ProjectTile";
+import ProjectTiles from "./components/projectTile/ProjectTiles";
 import Banner from "../../components/layout/banner/Banner";
 export default function Projects() {
   return (
@@ -7,7 +7,7 @@ export default function Projects() {
       <Banner title={"Projects"} />
 
       <div className="projects">
-        <ProjectTile />
+        <ProjectTiles />
       </div>
     </>
   );

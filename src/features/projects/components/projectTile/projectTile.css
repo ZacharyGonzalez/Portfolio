@@ -1,23 +1,38 @@
 .projects-container {
   display: flex;
-  gap: 10px;
-  padding: 1rem 2rem;
-  position: relative;
-  top: 50%;
-  left: 50%;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
 }
 
 .project-tile {
-  border: 2px solid black;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
   width: 300px;
   height: 200px;
+  padding: 1rem;
+  background-color: rgba(17, 17, 17, 0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-tile:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 255, 153, 0.4);
 }
 
 .project-title {
-  font-size: 40px;
+  font-size: 1.8rem;
   color: #00ff99;
+  font-weight: bold;
+  text-shadow: 0 0 6px rgba(0, 255, 153, 0.7);
 }
 
 .project-desc {
-  font-size: 20px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.4;
 }
