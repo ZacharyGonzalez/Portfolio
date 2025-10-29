@@ -1,0 +1,19 @@
+.timeline {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  padding-left: 2rem;
+  gap: 2rem;
+}
+
+.timeline-ruler {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 2px;
+  background-color: #00ff99;
+  gap: 100px;
+  margin-left: 25%;
+  padding: 2rem 0;
+}

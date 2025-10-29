@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.head {
+  display: flex;
+  gap: 5px;
+}
+
+.bottom {
+  display: flex;
+}

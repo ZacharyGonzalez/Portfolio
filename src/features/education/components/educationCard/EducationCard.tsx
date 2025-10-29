@@ -20,7 +20,11 @@ export default function EducationCard({
       <div className="education-card">
         <div className="title">{Degree}</div>
         <div className="date">{Date}</div>
-        <div className="gpa"> <FaGraduationCap />{GPA}</div>
+        <div className="gpa">
+          {" "}
+          <FaGraduationCap />
+          {GPA}
+        </div>
         <div className="school">{School}</div>
       </div>
       <div className="info-box">

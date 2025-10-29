@@ -1,0 +1,13 @@
+.timeline-node {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.node-icon {
+}
+
+.year {
+  padding-left: 20px;
+  font-weight: bold;
+}

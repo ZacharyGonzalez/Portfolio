@@ -7,13 +7,13 @@ export default function Skills() {
       <Banner title={"Skills"} />
 
       <div className="skills">
-        <WordContainer skill='React' />
-        <WordContainer skill='NodeJs' />
-        <WordContainer skill='Python' />
-        <WordContainer skill='Langchain' />
-        <WordContainer skill='Mongodb' />
-        <WordContainer skill='SQL' />
-        <WordContainer skill='Git' />
+        <WordContainer skill="React" />
+        <WordContainer skill="NodeJs" />
+        <WordContainer skill="Python" />
+        <WordContainer skill="Langchain" />
+        <WordContainer skill="Mongodb" />
+        <WordContainer skill="SQL" />
+        <WordContainer skill="Git" />
       </div>
     </>
   );

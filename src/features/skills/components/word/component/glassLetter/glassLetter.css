@@ -5,18 +5,17 @@
   color: rgba(255, 255, 255, 0.8);
   cursor: default;
 
-  animation: travelGlow 4s infinite;
+  animation: travelGlow 5s infinite;
   animation-delay: var(--delay);
 }
 
 @keyframes travelGlow {
   0% {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.4);
     text-shadow: none;
   }
   50% {
     color: #00ff99;
-    text-shadow: 0 0 12px #00ff99, 0 0 24px #00ff99;
   }
   100% {
     color: rgba(255, 255, 255, 0.8);
