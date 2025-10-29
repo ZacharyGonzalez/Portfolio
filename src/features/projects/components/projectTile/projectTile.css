@@ -12,6 +12,8 @@
   border-radius: 20px;
   width: 300px;
   padding: 1rem;
+  background-color: rgba(8, 8, 8, 0.5);
+
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -37,7 +39,6 @@
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.4;
   padding: 1rem 1rem;
-  background-color: rgba(8, 8, 8, 0.4);
   border-radius: 10px;
   pointer-events: none;
 }

@@ -3,7 +3,7 @@ import Bio from "../../../features/bio/Bio";
 import Education from "../../../features/education/Education";
 import Skills from "../../../features/skills/Skills";
 import Projects from "../../../features/projects/Projects";
-import Timeline from "../../../features/timeline/Timeline";
+//import Timeline from "../../../features/timeline/Timeline";
 import Footer from "../../../features/footer/footer";
 
 export default function Professional() {
@@ -13,7 +13,7 @@ export default function Professional() {
       <Education />
       <Skills />
       <Projects />
-      <Timeline />
+      {/*<Timeline />*/}
       <Footer />
     </div>
   );

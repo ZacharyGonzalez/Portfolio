@@ -28,8 +28,8 @@ export default function EducationCard({
         <div className="school">{School}</div>
       </div>
       <div className="info-box">
-        <h1>{School}</h1>
-        {Info}
+        <div className="info-box-school">{School}</div>
+        <div className="info-box-info">{Info}</div>
       </div>
     </div>
   );

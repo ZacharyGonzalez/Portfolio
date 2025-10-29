@@ -31,13 +31,13 @@
 }
 
 .info-box {
-  /* weird fiddling to make this card the same size as the other card*/
   width: 320px;
   height: 370px;
   padding: 1rem 2rem;
   background-color: #111;
   color: white;
   transform: rotateY(-180deg);
+  gap:40px;
 }
 
 .card-container:hover .education-card {
@@ -64,4 +64,12 @@
 .gpa {
   color: #00ff99;
   align-self: flex-end;
+}
+
+.info-box-school{
+  font-size: 30px;
+}
+
+.info-box-info{
+  font-size: 20px;
 }

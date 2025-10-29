@@ -4,13 +4,10 @@ import {
   FaLinkedin,
   FaInstagram,
   FaYoutube,
-  FaFacebook,
 } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
 import "./myLinks.css";
 
 export default function MyLinks() {
-  const navigate = useNavigate();
 
   const links = [
     /* {
@@ -18,11 +15,7 @@ export default function MyLinks() {
       icon: <FaFileDownload />,
       action: () => window.open("https://example.com/my-cv.pdf"),
     },*/
-    {
-      label: "Facebook",
-      icon: <FaFacebook />,
-      action: () => navigate("/profile"),
-    },
+
     {
       label: "Instagram",
       icon: <FaInstagram />,

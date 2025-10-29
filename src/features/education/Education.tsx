@@ -8,14 +8,14 @@ export default function Education() {
       Date: "Sep. 2018 - Dec. 2020",
       GPA: "3.7",
       School: "Essex County Community College",
-      Info: "Rat race robot won second place for state competition in 2020",
+      Info: "I was a tutor for Calculus and Physics. I also participated in the robotics team state rat race competition where my navigation algorithm won second place.",
     },
     {
       Degree: "Bachelors of Science",
       Date: "Sep. 2022 - Dec. 2024",
       GPA: "3.3",
       School: "New Jersey Institute of Technology",
-      Info: `I led multiple teams through Agile Principles, and was the PM for my Senior Capstone; Which won second place at the NJIT Showcase for best project`,
+      Info: `I led multiple teams through Agile Principles, and was the PM for my Senior Capstone; Which won second place at the NJIT Showcase for best project.`,
     },
   ];
   return (
