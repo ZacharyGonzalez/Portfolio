@@ -1,3 +1,1 @@
-Portfolio Website
-
-Front end design was something I believe i needed more experience in, so making this website was for practice and to help stand out amongst competative peers.
+This was practice to learn typescript, react, AWS amplify, AWS IAM roles, CSS, and just to have a basic portfolio website of my own. It is work in progress
